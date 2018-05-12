@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>Download</title>
+	</head>
+	<body>
+		array(3) {
+  [0]=>
+  string(1) "."
+  [1]=>
+  string(2) ".."
+  [2]=>
+  string(18) "Slobodan.Lazic.pdf"
+}
+<a href='download.php/>Cv</a><br />
+<b>Warning</b>:  readfile(.): failed to open stream: Permission denied in <b>C:\wamp64\www\G7\PHP\Advanced PHP\Predavanje 2\Vezba\download.php</b> on line <b>27</b><br />
+<br />
+<b>Warning</b>:  readfile(..): failed to open stream: Permission denied in <b>C:\wamp64\www\G7\PHP\Advanced PHP\Predavanje 2\Vezba\download.php</b> on line <b>27</b><br />
+<br />
+<b>Warning</b>:  filesize(): stat failed for Slobodan.Lazic.pdf in <b>C:\wamp64\www\G7\PHP\Advanced PHP\Predavanje 2\Vezba\download.php</b> on line <b>25</b><br />
+<br />
+<b>Warning</b>:  readfile(Slobodan.Lazic.pdf): failed to open stream: No such file or directory in <b>C:\wamp64\www\G7\PHP\Advanced PHP\Predavanje 2\Vezba\download.php</b> on line <b>27</b><br />
+		 <form action="#" method="post">
+			<input type="submit" name="submit" value="List all CVs">
+		</form>
+	</body>
+</html>

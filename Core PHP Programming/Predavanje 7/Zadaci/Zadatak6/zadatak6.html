@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>Zadatak 6</title>
+	</head>
+	
+	<body>
+		<form action="zadatak6.php" method="POST">
+			<fieldset>
+				<legend>Personal information:</legend><br>
+				<div>	
+					<label>First name:</label><br>
+						<input type="text" name="firstname" placeholder="First name">
+						<span>This is a required field.</span>
+				</div>
+				<div>
+				<label>Last name:</label><br>
+					<input type="text" name="lastname" placeholder="Last name">
+					<span>This is a required field.</span>
+				</div>
+				<div>
+				<label>E-mail:</label><br>
+					<input type="email" name="email"
+					placeholder="E-mail">
+					<span>This is a required field.</span>
+				</div>
+				<div>
+				<label>Mobile phone:</label><br>
+					<input type="text" name="phone"
+					pattern="[0-9]"
+					placeholder="Mobile phone">
+					<span>This is not a required field.</span>
+				</div>
+				<div>
+					<input type="submit">
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>

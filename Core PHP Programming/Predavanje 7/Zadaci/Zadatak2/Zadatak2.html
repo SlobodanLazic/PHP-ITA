@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="UTF-8">
+		<title>Zadatak 2</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+	</head>
+	
+	<body>
+		<div id="firstform">
+		<form>
+		Formu popunjava:<input type="text" name="formfilledby">
+			<br>
+			<br>
+			razno: <input type="text" name="variousinfo">
+		</form>
+		</div>
+		
+		<form action="Zadatak2.php" method="POST">
+			<table>
+				<tr id="grayrow">
+					<td>Student-ime i prezime</td>
+					<td>POENI</td>
+					<td>Oznaka <br> smera</td>
+					<td>Trocifren broj <br>indeksa</td>
+					<td>email-adresa</td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="name[]" /></td>
+					<td><input type="text" name="points[]" /></td>
+					<td><input type="text" name="major[]" /></td>
+					<td><input type="text" name="number[]" /></td>
+					<td><input type="text" name="email[]" /></td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="name[]"></td>
+					<td><input type="text" name="points[]"></td>
+					<td><input type="text" name="major[]"></td>
+					<td><input type="text" name="number[]"></td>
+					<td><input type="text" name="email[]"></td>
+				</tr>
+				
+				<tr>
+					<td><input type="text" name="name[]"></td>
+					<td><input type="text" name="points[]"></td>
+					<td><input type="text" name="major[]"></td>
+					<td><input type="text" name="number[]"></td>
+					<td><input type="text" name="email[]"></td>
+				</tr>
+				
+				<tr>
+					<td><input type="Submit" value="Obradi"></td>
+					<td></td>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		</form>
+	
+	</body>
+</html>
